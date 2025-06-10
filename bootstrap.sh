@@ -18,4 +18,4 @@ pip install --upgrade pip
 pip install -r requirements.txt
 
 # Step 4: Success message
-echo "✅ Environment ready! Activate with: source venv/bin/activate"
+echo "✅ Environment ready!"
