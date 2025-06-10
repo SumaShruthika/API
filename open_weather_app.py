@@ -13,6 +13,7 @@ URL = f"https://api.openweathermap.org/data/2.5/weather?q={CITY}&appid={API_KEY}
 response = requests.get(URL)
 
 if response.status_code == 200:
+    print(f"Fetching weather for city: {CITY}")
     data = response.json()
 
     weather_info = {
