@@ -11,7 +11,7 @@ python3 -m venv venv
 # Step 2: Activate it
 echo "🟡 Activating virtual environment..."
 source venv/bin/activate
-S
+
 # Step 3: Install dependencies
 echo "🔵 Installing requirements..."
 pip install --upgrade pip
